@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1668625327 source:c:\users\cmaza\documents\programa\tp_info2_final\main.c
+	<stdio.h>
+	<stdlib.h>
+
