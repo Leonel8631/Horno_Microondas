@@ -8,6 +8,7 @@ El control de la puerta posee dos sensores conectados a dos interrupciones exter
 la puerta y cuando se cierra.
 
 
+![image](https://user-images.githubusercontent.com/115810400/204050239-0d3c9ee1-4619-4a66-9256-c98f7b3dda61.png)
 
 
 
