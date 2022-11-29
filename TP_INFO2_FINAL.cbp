@@ -32,8 +32,26 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="arranque.h" />
+		<Unit filename="boton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cargando_tiempo.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="config.f">
 			<Option weight="0" />
+		</Unit>
+		<Unit filename="display.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="func_calentado.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="func_detenido.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="func_reposo.c">
+			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
@@ -42,6 +60,9 @@
 		<Unit filename="mylib_display.h" />
 		<Unit filename="mylib_estados.h" />
 		<Unit filename="mylib_tiempo.h" />
+		<Unit filename="tiempo.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
