@@ -35,8 +35,6 @@ int main()
 
                        estado= func_detenido ( config, tecla);
 
-
-                    }
                     break;
       } //fin del switch
 
