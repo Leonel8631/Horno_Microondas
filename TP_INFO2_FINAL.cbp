@@ -50,9 +50,6 @@
 		<Unit filename="func_detenido.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="func_reposo.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

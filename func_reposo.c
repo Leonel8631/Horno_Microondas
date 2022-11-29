@@ -11,7 +11,7 @@ estado_t func_reposo(arranque_t config, int tiempo){
 
 estado_t estado;
  puerta=cerrada;
-                    if( tecla != "COMIENZO/DETENER" && tecla != "BORRAR"){
+                    if( tecla.comienzo_detener != "COMIENZO/DETENER" && tecla.borrado != "BORRAR"){
 
                          ingreso_tiempo(tiempo);
                          display(tiempo);

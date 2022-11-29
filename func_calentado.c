@@ -10,14 +10,15 @@
 estados_t func_calentado( arranque_t config, boton_t tecla){
 
 estado_t estado;
+arranque_t func;
 
       display(tiempo);
-                         if(tecla == "COMIENZO/DETENER"){
+                         if(tecla.comienzo_detener == "COMIENZO/DETENER"){
                             calentar_on=config;
 
                             return(estado=detenido);
                          }else{
-                                if( puerta == ABIERTA ){
+                                if( func.puerta == ABIERTA ){
 
                                     calentar_off= config;
                                     det_x_puerta=0;

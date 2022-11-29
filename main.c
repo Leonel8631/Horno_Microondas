@@ -3,6 +3,7 @@
 #include "mylib_tiempo.h"
 #include "mylib_display.h"
 #include "mylib_estados.h"
+#include "mylib_boton.h"
 
 
 int main()
@@ -11,8 +12,7 @@ int main()
     arranque_t config;
     estados_t estado = repaso; // primer estado
     config = inicio();
-
-    while(1){
+    boton_t tecla;    while(1){
 
       switch (estado) {
 
@@ -28,13 +28,15 @@ int main()
                        break;
         case calentado:
 
-                        estado= func_calentado( config,tecla);
+                        estado_ func_calentado( config,tecla);
 
                               break;
         case detenido:
 
                        estado= func_detenido ( config, tecla);
 
+
+                    }
                     break;
       } //fin del switch
 

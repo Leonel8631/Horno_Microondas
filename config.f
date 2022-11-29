@@ -5,6 +5,6 @@ Nombre funcionado
 # microondas apagado
 off=0 calentar_off=0
 # puerta abierta
-det_x_puerta_on_on
+det_x_puerta_on=on
 #puerta cerrada
 det_x_puerta_off=off

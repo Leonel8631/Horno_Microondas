@@ -8,6 +8,7 @@ tydepef struct boton{
 
    char comienzo_detener[10];
    char borrado[10];
+   char NO_KEY;
 
 }boton_t;
 

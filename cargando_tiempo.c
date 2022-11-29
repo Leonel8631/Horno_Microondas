@@ -20,13 +20,13 @@ if( tecla == "BORRAR"){
 
                       return(estado=reposo);
                      } else {
-                             if( tecla == "COMIENZO/DETENER" && tiempo){
+                             if( tecla.comienzo_detener == "COMIENZO/DETENER" && tiempo){
                                 digitos_cargados = 0;
                                      calentar_on= config;
 
                                      return(estado=calentado);
                                 }else{
-                                       if( tecla!=NO_KEY && digitos_cargados < 4 ){
+                                       if( tecla.NO_KEY!= NO_KEY && digitos_cargados < 4 ){
 
                                             tiempo=tiempo*10 + tecla;
                                             digitos_cargados++;

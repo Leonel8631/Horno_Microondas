@@ -8,7 +8,7 @@ tydepef struct arranque{
 
    char calentar;
    char digitos_cargados;
-   char det_x_puerta;
+   char puerta;
 
 }arranque_t;
 
