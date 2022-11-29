@@ -28,7 +28,7 @@ int main()
                        break;
         case calentado:
 
-                        estado_ func_calentado( config,tecla);
+                        estado= func_calentado( config,tecla);
 
                               break;
         case detenido:
