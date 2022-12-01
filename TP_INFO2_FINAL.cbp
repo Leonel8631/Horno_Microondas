@@ -53,6 +53,9 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="main_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="mylib_boton.h" />
 		<Unit filename="mylib_display.h" />
 		<Unit filename="mylib_estados.h" />

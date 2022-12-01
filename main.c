@@ -12,7 +12,9 @@ int main()
     arranque_t config;
     estados_t estado = repaso; // primer estado
     config = inicio();
-    boton_t tecla;    while(1){
+    boton_t tecla;
+
+    while(1){
 
       switch (estado) {
 

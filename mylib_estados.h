@@ -2,6 +2,7 @@
 #define MYLIB_ESTADOS_H_INCLUDED
 #include <stdio.h>
 #include <stdlib.h>
+#include "mylib_boton.h"
 
 typedef enum {
 
@@ -21,6 +22,10 @@ typedef struct funcionamiento{
 
 }funcionamiento_t;
 
+estados_t func_reposo(arranque_t , int );
+estados_t func_cargando_tiempo(arranque_t , boton_t );
+estados_t func_calentado(arranque_t , boton_t );
+estados_t func_detenido(arranque_t , boton_t );
 
 
 #endif // MYLIB_ESTADOS_H_INCLUDED
